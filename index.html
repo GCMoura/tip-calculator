@@ -13,52 +13,52 @@
 <body id="root">
   <main class="main">
     <div class="box">
-      <div class="tip-elements">
-        <div class="tip-bill">
-          <p>Bill</p>
-          <input type="number" class="tip-bill-input">
-        </div>
-        <div class="select-tip">
-          <p>Select Tip %</p>
-          <div class="percent">
-            <button>5%</button>
-            <button>10%</button>
-            <button>15%</button>
-            <button>25%</button>
-            <button>50%</button>
-            <button>Custom</button>
+      <form>
+        <div class="tip-elements">
+          <div class="tip-bill">
+            <p>Bill</p>
+            <input type="number" class="tip-bill-input" required>
+          </div>
+          <div class="number-people">
+            <P>Number of People</P>
+            <input type="number" class="number-people-input" required>
+          </div>
+          <div class="select-tip">
+            <p>Select Tip %</p>
+            <div class="percent">
+              <button type="submit" class="percent-button">5%</button>
+              <button type="submit" class="percent-button">10%</button>
+              <button type="submit" class="percent-button">15%</button>
+              <button type="submit" class="percent-button">25%</button>
+              <button type="submit" class="percent-button">30%</button>
+              <button type="submit" class="percent-button">50%</button>
+            </div>
           </div>
         </div>
-        <div class="number-people">
-          <P>Number of People</P>
-          <input type="number">
-        </div>
-      </div>
+      </form>
       <div class="tip-results">
         <div class="tip-amount">
           <div class="tip-amount-p">
             <p class="p-first-results">Tip Amount</p>
             <p class="p-second-results">/ person</p>
           </div>
-          <input type="text" class="input" disabled>
+          <input type="text" class="input tip-amount-input" disabled>
         </div>
         <div class="tip-total">
           <div class="tip-total-p">
             <p class="p-first-results">Tip Total</p>
             <p class="p-second-results">/ person</p>
           </div>
-          <input type="text" class="input" disabled>
+          <input type="text" class="input tip-total-input" disabled>
         </div>
         <button class="reset-button">Reset</button>
       </div>
     </div>
-
-
   </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Gabriel Moura</a>.
+    Coded by <a href="www.linkedin.com/in/gabriel-moura-developer" target="_blank">Gabriel Moura</a>.
   </div>
 </body>
 <script src="script.js"></script>

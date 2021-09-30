@@ -22,7 +22,7 @@ input[type=number]::-webkit-inner-spin-button {
   padding: 20px;
 }
 /* TIP ELEMENTS */
-.tip-elements{
+form{
   background: var(--white);
   width: 80%;
   height: 95%;
@@ -32,6 +32,9 @@ input[type=number]::-webkit-inner-spin-button {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+.tip-elements{
+  background: var(--white);
 }
 .tip-bill{
   background: var(--white);
@@ -141,7 +144,7 @@ input[type=number]::-webkit-inner-spin-button {
 .tip-results{
   background: var(--cyan-very-dark);
   width: 90%;
-  height: 95%;
+  height: 100%;
   border-radius: 20px;
 
   display: flex;
@@ -174,17 +177,17 @@ input[type=number]::-webkit-inner-spin-button {
   width: 40%;
   color: var(--cyan);
   font-size: 24px;
-  text-align: center;
+  text-align: right;
   outline: none;
   background-color: transparent;
   background-image: url(/images/icon-dollar.svg);
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: left;
-  background-position-x: 10px;
+  background-position-x: 5px;
 }
 .reset-button{
-  margin-top: 40px;
+  /* margin-top: 40px; */
   width: 80%;
   height: 15%;
   font-size: 24px;
@@ -197,4 +200,11 @@ input[type=number]::-webkit-inner-spin-button {
   background-color: var(--cyan-light);
 }
 
-
+/* FOOTER */
+.attribution{
+  text-align: center;
+  font-size: 12px;
+}
+.attribution a{
+  text-decoration: none;
+}
