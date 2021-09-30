@@ -1,3 +1,4 @@
+/* MAIN */
 .main{
   display: flex;
   flex-direction: column;
@@ -5,7 +6,195 @@
   justify-content: center;
 
   height: 95vh;
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+/* BOX */
+.box{
+  width: 60%;
+  height: 50%;
+  background: var(--white);
+  border-radius: 40px;
 
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+/* TIP ELEMENTS */
+.tip-elements{
+  background: var(--white);
+  width: 80%;
+  height: 95%;
+  border-radius: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.tip-bill{
+  background: var(--white);
+  width: 90%;
+}
+.tip-bill p{
+  background: var(--white);
+  font-size: 18px;
+  color: var(--cyan-dark-light);
+}
+.tip-bill input{
+  height: 40px;
+  width: 95%;
+  color: var(--cyan-dark);
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: var(--cyan-light);
+  text-align: right;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: url(/images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left;
+  background-position-x: 10px;
+}
+.tip-bill input:hover{
+  border: 1px solid var(--cyan);
+}
+.tip-bill ::placeholder{
+  text-align: left;
+  color: var(--cyan-dark-light);
+}
+.select-tip{
+  background: var(--white);
+  width: 90%;
+}
+.select-tip p{
+  width: 100%;
+  background: var(--white);
+  font-size: 18px;
+  color: var(--cyan-dark-light);
+  text-align: left;
+  margin-top: 10px;
+}
+.percent{
+  background: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+}
+.percent button{
+  border-radius: 8px;
+  width: 30%;
+  height: 50px;
+  cursor: pointer;
+  margin: 5px 0px;
+  font-size: 20px;
+  background: var(--cyan-very-dark);
+  color: var(--cyan-light-light);
+}
+.percent button:hover{
+  background-color: var(--cyan);
+  color: var(--cyan-very-dark);
+}
+.number-people{
+  background-color: var(--white);
+  width: 90%;
+}
+.number-people p{
+  width: 100%;
+  background: var(--white);
+  font-size: 18px;
+  color: var(--cyan-dark-light);
+  text-align: left;
+  margin-top: 10px;
+}
+.number-people input{
+  height: 40px;
+  width: 95%;
+  color: var(--cyan-dark);
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: var(--cyan-light);
+  text-align: right;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: url(/images/icon-person.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left;
+  background-position-x: 10px;
+}
+.number-people input:hover{
+  border: 1px solid var(--cyan);
+}
+
+
+/* TIP RESULTS */
+.tip-results{
+  background: var(--cyan-very-dark);
+  width: 90%;
+  height: 95%;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tip-amount, .tip-total{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--cyan-very-dark);
+  margin: 30px 0px;
+}
+.tip-amount p,
+.tip-total p{
+  background-color: var(--cyan-very-dark);
+}
+.p-first-results{
+  color: var(--cyan-light);
+  font-size: 18px;
+}
+.p-second-results{
+  color: var(--cyan-dark-light);
+  font-size: 16px;
+}
+
+.input{
+  height: 50px;
+  width: 40%;
+  color: var(--cyan);
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  background-color: transparent;
+  background-image: url(/images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left;
+  background-position-x: 10px;
+}
+.reset-button{
+  margin-top: 40px;
+  width: 80%;
+  height: 15%;
+  font-size: 24px;
+  border-radius: 8px;
+  background-color: var(--cyan);
+  cursor: pointer;
+  color: var(--cyan-very-dark);
+}
+.reset-button:hover{
+  background-color: var(--cyan-light);
 }
 
 

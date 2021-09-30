@@ -13,7 +13,44 @@
 <body id="root">
   <main class="main">
     <div class="box">
-      <h1>Teste</h1>
+      <div class="tip-elements">
+        <div class="tip-bill">
+          <p>Bill</p>
+          <input type="number" class="tip-bill-input">
+        </div>
+        <div class="select-tip">
+          <p>Select Tip %</p>
+          <div class="percent">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <button>Custom</button>
+          </div>
+        </div>
+        <div class="number-people">
+          <P>Number of People</P>
+          <input type="number">
+        </div>
+      </div>
+      <div class="tip-results">
+        <div class="tip-amount">
+          <div class="tip-amount-p">
+            <p class="p-first-results">Tip Amount</p>
+            <p class="p-second-results">/ person</p>
+          </div>
+          <input type="text" class="input" disabled>
+        </div>
+        <div class="tip-total">
+          <div class="tip-total-p">
+            <p class="p-first-results">Tip Total</p>
+            <p class="p-second-results">/ person</p>
+          </div>
+          <input type="text" class="input" disabled>
+        </div>
+        <button class="reset-button">Reset</button>
+      </div>
     </div>
 
 
@@ -24,4 +61,5 @@
     Coded by <a href="#">Gabriel Moura</a>.
   </div>
 </body>
+<script src="script.js"></script>
 </html>
